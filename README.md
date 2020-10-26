@@ -13,6 +13,10 @@ Run:
 `npm start examples/example-a.txt`
 
 
+Run tests: 
+
+`npm test`
+
 Description
 -----------
 

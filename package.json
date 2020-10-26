@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
+  },
+  "directories": {
+    "test": "test"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/xNavid/toy-robot-simulator-v2/issues"
   },
-  "homepage": "https://github.com/xNavid/toy-robot-simulator-v2#readme"
+  "homepage": "https://github.com/xNavid/toy-robot-simulator-v2#readme",
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "^8.2.0"
+  }
 }
